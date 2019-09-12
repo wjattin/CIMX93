@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pizza Form</title>
+    <style media="screen">
+      p,h1 { text-align: center}
+    </style>
+  </head>
+  <body>
+    <h1>Order</h1>
+    <form action="" enctype="text/plain" method="post">
+      <p>
+      <label for="first_name">First name: </label>
+      <input type="text" name="first_name" value="" placeholder="John">
+      </p>
+
+      <p>
+      <label for="last_name">Last name: </label>
+      <input type="text" name="last_name" value="" placeholder="Smith">
+      </p>
+
+      <p>
+      <label for="address">Address: </label>
+      <input type="text" name="address" value="" placeholder="1234 street">
+      </p>
+
+      <p>
+      <label for="suite">Suite:  </label>
+      <input type="text" name="suite" value="" placeholder="">
+      </p>
+
+      <p>
+      <label for="city">City: </label>
+      <input type="text" name="city" value="" placeholder="">
+      </p>
+
+      <p>
+      <label for="state">State: </label>
+      <input type="text" name="state" value="" placeholder="ST">
+      </p>
+
+      <p>
+      <label for="zip">Zip: </label>
+      <input type="text" name="zip" value="" placeholder="11111">
+      </p>
+        <p>
+        <label for="topping">
+          Pizza toppings (Check all that apply)
+        </label>
+        <br>
+        <input type="checkbox" name="topping[]" value="Cheese" checked> Cheese<br>
+        <input type="checkbox" name="topping[]" value="Mushrooms"> Mushrooms<br>
+        <input type="checkbox" name="topping[]" value="Pepperoni"> Pepperoni<br>
+        </p>
+        <p>
+        <label for="comments">Comments</label>
+        <br>
+        <textarea name="comments" id="" cols="30" rows="10"></textarea>
+
+        </p>
+        <p>
+          <input type="submit" value="Place Order">
+        </p>
+      <!-- comments -->
+    </form>
+
+  </body>
+</html>
