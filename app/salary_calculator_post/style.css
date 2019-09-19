@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
+* {
+
+
+
+    font-family: 'Saira Stencil One', cursive;
+
+
+  font-size: 14px;
+}
+body { background-color: #CCCCAF}
+form, .totals {
+  background: #FFFFFF;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 15px;
+}
+p {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+}
+p.submit { grid-template-columns: 1fr;}
+
+.btn {
+  background-color: #4285f4;
+
+  text-align: center;
+  color: #FFFFFF;
+}
+small { font-size: 8px; font-family: "Arial"}
+.btn:hover {
+  background-color: #296CDB;
+}
+
+.btn:focus {
+  background-color: #0F52C1;
+
+  /* The outline parameter suppresses the border
+  color / outline when focused */
+  outline: 0;
+}
+input, select,option {  padding: 10px; border-radius: 5px}
+
+.btn:active {
+  background-color: #0039A8;
+}
+h1,h2,h3 { text-align: center; text-transform: uppercase; font-size: 200%}
